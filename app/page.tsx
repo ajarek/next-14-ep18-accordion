@@ -9,7 +9,7 @@ import {
 
 export default function Home() {
   return (
-    <main className=" flex min-h-screen flex-col items-center justify-start  bg-violet-300">
+    <main className="max-w-[1440px] mx-auto flex min-h-screen flex-col items-center justify-start  bg-violet-300">
       <Image
       width={1440}
       height={320}
@@ -21,7 +21,7 @@ export default function Home() {
         height: 'auto',
       }}
       />
-     <Accordion type="single" collapsible className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] flex flex-col justify-evenly rounded-3xl  bg-slate-200 p-4">
+     <Accordion type="single" collapsible className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 max-w-[500px] max-h-[500px] min-w-[320px] flex flex-col justify-evenly rounded-3xl  bg-slate-200 p-4">
       
         <div className='flex items-center'>
         <Image
